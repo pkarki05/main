@@ -1,0 +1,136 @@
+/* To leave 10% of margin left and right side */
+.container {
+  width: 80%;
+  margin: auto;
+}
+.global-msg {
+  background: blue;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+/* to use div inside the global msg  */
+.global-msg > div,
+.top-menu {
+  display: flex;
+  justify-content: space-between;
+}
+/* top nav */
+.nav-bar {
+  background: cyan;
+}
+
+.menu ul li {
+  margin-left: 1.2rem;
+}
+
+.menu > ul {
+  display: flex;
+  list-style-type: none;
+}
+.menu ul li:hover {
+  cursor: pointer;
+  color: blue;
+}
+/*Hero Section  */
+.hero {
+  background: url("./dave-weatherall-ZAwMMAoabrU-unsplash.jpg") no-repeat center;
+  background-size: cover;
+  min-height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-content {
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  width: 450px;
+  padding: 1rem 2rem;
+  text-align: center;
+  border-radius: 10px;
+}
+/* main page content area */
+.main {
+  display: flex;
+  margin-top: 32px;
+}
+.main-content {
+  width: 66%;
+  margin-right: 1rem;
+}
+.side-links {
+  width: 34%;
+}
+article {
+  display: flex;
+  border: 1px dotted #ccc;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.btn-box {
+  display: flex;
+  justify-content: flex-end;
+}
+.btn {
+  padding: 8px 15px;
+  background: orangered;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.art-img {
+  margin-right: 20px;
+  width: 250px;
+}
+.title {
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+/* side link */
+.read-by-country,
+.read-by-date {
+  background: yellow;
+  margin-top: 3.5rem;
+  padding: 1rem;
+  border-radius: 5px;
+}
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.card {
+  box-shadow: -5px 5px 15px 5px grey;
+  background: white;
+  padding-bottom: 2rem;
+  border-radius: 10px;
+  width: 300px;
+  flex-grow: 1;
+}
+.btn-card {
+  width: 100%;
+}
+
+.card > img {
+  border-radius: 10px 10px 0 0;
+}
+.recc {
+  background: rgb(103, 181, 103);
+}
+.subs {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer {
+  background: black;
+  color: wheat;
+  padding: 50px;
+  text-align: center;
+}
